@@ -6,7 +6,7 @@
 
 body{
     color: white;
-    background-image: url(./img/background-img.jpg);
+    background-image: url(background-img.jpg)
 }
 
 #form-container{
