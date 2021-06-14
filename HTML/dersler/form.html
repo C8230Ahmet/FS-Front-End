@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formlar</title>
+</head>
+<body>
+    <form action="results.html" method="GET">
+<div>        
+        <label>isim<input type="text" name="isim"></label>
+        <label for="isim">isim:</label>
+        <input id="isim" type="text" name="isim" placeholder="adınızı girin">
+        <br>
+</div>
+<label for="şifre">parola:</label>
+    <input type="password" name="şifre" id="şifre">
+<div>    
+    <label for="">Cinsiyet:</label>
+    <input id="gender1" type="radio" name="gender" value="erkek"
+    <label for="gender1">Erkek</label>
+    <input id="genser2" type="radio" name="gender" value="kadın">
+    <label for="gender2">Kadın</label>
+</div>
+<br><br><br><br><br>
+<div>
+    <label>Favori hayvanınızı seçin</label>
+    <br>
+    <input type="checkbox" name="animal_1" id="panda" value="panda">
+    <label for="panda">panda</label>
+    <input type="checkbox" name="animal_2" id="balık" value="balık">
+    <label for="balık">balık</label>
+    <input type="checkbox" name="animal_3" id="unicorn" value="unicorn" checked>
+    <label for="unicorn">unicorn</label>
+</div>
+<div>
+    <label for="age">yaş</label>
+    <br>
+    <input type="number" name="yaş" id="age" min="18">
+</div>
+<input type="reset" value="reset">
+<input type="submit" value="submit">
+<div>
+    <label for="search">ara:</label> <br>
+    <input type="search" name="arandı" id="search">
+</div>
+<div>
+    <label for="color">renk seç</label> <br>
+    <input type="color" id="renk" name="seçilen_renk">
+</div>
+<div>
+    <label for="tarih">doğujm tarihi</label> <br>
+    <input type="date" id="tarih" name="doğum_tarihi" min="2020-05-20" max="2022-06-21">
+</div>
+    <label for="mail">Mail</label> <br>
+    <input type="email" id="mail" name="email">
+<div>
+    <label for="dosya">Dosya seç</label> <br>
+    <input type="file" name="seçilem dosya" id="dosya">
+</div>
+<div>
+    <label for="telno">tel no</label>
+    <input type="tel" name="telno" id="telno">
+</div>
+    </form>
+</body>
+</html>
