@@ -1,0 +1,20 @@
+.div1{
+    border: 1px solid blue;
+    width:80%
+    margin
+}
+#par_1{
+    border-style: dotted;
+    border-width: 2px;
+    border-color: tomato;
+}
+#par_2{
+    border-style: groove;
+    border-width: 2px;
+    border-color: tomato;
+}
+#par_3{
+    border-style: dashed;
+    border-width: 2px;
+    border-color: tomato;
+}
