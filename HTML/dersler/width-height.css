@@ -1,0 +1,19 @@
+.lorem1 {
+  height: 500px;
+  width: 50%;
+  background-color: indianred;
+}
+.lorem2 {
+  background-color: lightblue;
+  width: 300px;
+  padding: 20px;
+  border: 15px solid navy;
+}
+.max-width {
+  max-width: 50%;
+}
+.min-width {
+  max-height: 20px;
+  border: 10px solid red;
+  padding: 10px;
+}
