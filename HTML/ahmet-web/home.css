@@ -5,32 +5,29 @@ nav {
   background-color: yellowgreen;
   height: 100px;
 }
+#nav_bar {
+  word-spacing: 450px;
+}
 #hakkımda {
-  display: inline-block;
-  padding-top: 30px;
-  float: left;
-  margin-left: 150px;
+  margin-left: 75px;
   background-color: red;
-}
-#linkedin {
   display: inline-block;
-  margin-left: 400px;
-  padding-top: 30px;
-  background-color: red;
-}
-#github {
-  display: inline-block;
-  margin-left: 100px;
-  padding-top: 30px;
-  float: right;
-  margin-right: 150px;
-  background-color: red;
+  margin-top: 30px;
 }
 #projeler {
   background-color: red;
   display: inline-block;
-  padding-top: 30px;
-  margin-left: 400px;
+  margin-top: 30px;
+}
+#linkedin {
+  background-color: red;
+  display: inline-block;
+  margin-top: 30px;
+}
+#github {
+  background-color: red;
+  display: inline-block;
+  margin-top: 30px;
 }
 #ben {
   width: 900px;
@@ -40,12 +37,19 @@ nav {
   margin-left: 0px;
 }
 #hakkımda-yazı {
-  font-size: 30px;
+  display: inline-block;
   background-color: red;
-  padding-top: 20px;
+  float: right;
+  width: 800px;
+  font-size: 30px;
+  margin-top: 100px;
+  margin-right: 100px;
 }
 #hakkımda-başlık {
   background-color: red;
   display: inline-block;
-  margin-left: 400px;
+  float: right;
+  margin-right: 450px;
+  margin-top: 100px;
+  font-size: 30px;
 }
